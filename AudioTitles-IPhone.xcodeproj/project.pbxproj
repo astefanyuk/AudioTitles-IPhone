@@ -38,21 +38,21 @@
 		CCF4A57715E7D5A70033106B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CCF4A57915E7D5A70033106B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCF4A57B15E7D5A70033106B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CCF4A57F15E7D5A70033106B /* AudioTitles-IPhone-Info.plist */ = {isa = PBXFileReference; path = "AudioTitles-IPhone-Info.plist"; sourceTree = "<group>"; };
+		CCF4A57F15E7D5A70033106B /* AudioTitles-IPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioTitles-IPhone-Info.plist"; sourceTree = "<group>"; };
 		CCF4A58115E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF4A58315E7D5A70033106B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCF4A58515E7D5A70033106B /* AudioTitles-IPhone-Prefix.pch */ = {isa = PBXFileReference; path = "AudioTitles-IPhone-Prefix.pch"; sourceTree = "<group>"; };
-		CCF4A58615E7D5A70033106B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCF4A58515E7D5A70033106B /* AudioTitles-IPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioTitles-IPhone-Prefix.pch"; sourceTree = "<group>"; };
+		CCF4A58615E7D5A70033106B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCF4A58715E7D5A70033106B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CCF4A58A15E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CCF4A58D15E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CCF4A58F15E7D5A70033106B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CCF4A58F15E7D5A70033106B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CCF4A59015E7D5A70033106B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CCF4A59715E7D5A70033106B /* AudioTitles-IPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioTitles-IPhoneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF4A59815E7D5A70033106B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CCF4A5A015E7D5A70033106B /* AudioTitles-IPhoneTests-Info.plist */ = {isa = PBXFileReference; path = "AudioTitles-IPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		CCF4A5A015E7D5A70033106B /* AudioTitles-IPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioTitles-IPhoneTests-Info.plist"; sourceTree = "<group>"; };
 		CCF4A5A215E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CCF4A5A415E7D5A70033106B /* AudioTitles_IPhoneTests.h */ = {isa = PBXFileReference; path = AudioTitles_IPhoneTests.h; sourceTree = "<group>"; };
+		CCF4A5A415E7D5A70033106B /* AudioTitles_IPhoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioTitles_IPhoneTests.h; sourceTree = "<group>"; };
 		CCF4A5A515E7D5A70033106B /* AudioTitles_IPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTitles_IPhoneTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
