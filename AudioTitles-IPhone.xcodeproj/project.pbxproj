@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF4A57815E7D5A70033106B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A57715E7D5A70033106B /* UIKit.framework */; };
+		CCF4A57A15E7D5A70033106B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A57915E7D5A70033106B /* Foundation.framework */; };
+		CCF4A57C15E7D5A70033106B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A57B15E7D5A70033106B /* CoreGraphics.framework */; };
+		CCF4A58215E7D5A70033106B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF4A58015E7D5A70033106B /* InfoPlist.strings */; };
+		CCF4A58415E7D5A70033106B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A58315E7D5A70033106B /* main.m */; };
+		CCF4A58815E7D5A70033106B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A58715E7D5A70033106B /* AppDelegate.m */; };
+		CCF4A58B15E7D5A70033106B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF4A58915E7D5A70033106B /* MainStoryboard_iPhone.storyboard */; };
+		CCF4A58E15E7D5A70033106B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF4A58C15E7D5A70033106B /* MainStoryboard_iPad.storyboard */; };
+		CCF4A59115E7D5A70033106B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A59015E7D5A70033106B /* ViewController.m */; };
+		CCF4A59915E7D5A70033106B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A59815E7D5A70033106B /* SenTestingKit.framework */; };
+		CCF4A59A15E7D5A70033106B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A57715E7D5A70033106B /* UIKit.framework */; };
+		CCF4A59B15E7D5A70033106B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4A57915E7D5A70033106B /* Foundation.framework */; };
+		CCF4A5A315E7D5A70033106B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF4A5A115E7D5A70033106B /* InfoPlist.strings */; };
+		CCF4A5A615E7D5A70033106B /* AudioTitles_IPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A5A515E7D5A70033106B /* AudioTitles_IPhoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF4A59C15E7D5A70033106B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF4A56A15E7D5A70033106B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF4A57215E7D5A70033106B;
+			remoteInfo = "AudioTitles-IPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF4A57315E7D5A70033106B /* AudioTitles-IPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioTitles-IPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF4A57715E7D5A70033106B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCF4A57915E7D5A70033106B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF4A57B15E7D5A70033106B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCF4A57F15E7D5A70033106B /* AudioTitles-IPhone-Info.plist */ = {isa = PBXFileReference; path = "AudioTitles-IPhone-Info.plist"; sourceTree = "<group>"; };
+		CCF4A58115E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF4A58315E7D5A70033106B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF4A58515E7D5A70033106B /* AudioTitles-IPhone-Prefix.pch */ = {isa = PBXFileReference; path = "AudioTitles-IPhone-Prefix.pch"; sourceTree = "<group>"; };
+		CCF4A58615E7D5A70033106B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCF4A58715E7D5A70033106B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCF4A58A15E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CCF4A58D15E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CCF4A58F15E7D5A70033106B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CCF4A59015E7D5A70033106B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCF4A59715E7D5A70033106B /* AudioTitles-IPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioTitles-IPhoneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF4A59815E7D5A70033106B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCF4A5A015E7D5A70033106B /* AudioTitles-IPhoneTests-Info.plist */ = {isa = PBXFileReference; path = "AudioTitles-IPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		CCF4A5A215E7D5A70033106B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF4A5A415E7D5A70033106B /* AudioTitles_IPhoneTests.h */ = {isa = PBXFileReference; path = AudioTitles_IPhoneTests.h; sourceTree = "<group>"; };
+		CCF4A5A515E7D5A70033106B /* AudioTitles_IPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTitles_IPhoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF4A57015E7D5A70033106B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A57815E7D5A70033106B /* UIKit.framework in Frameworks */,
+				CCF4A57A15E7D5A70033106B /* Foundation.framework in Frameworks */,
+				CCF4A57C15E7D5A70033106B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4A59315E7D5A70033106B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A59915E7D5A70033106B /* SenTestingKit.framework in Frameworks */,
+				CCF4A59A15E7D5A70033106B /* UIKit.framework in Frameworks */,
+				CCF4A59B15E7D5A70033106B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF4A56815E7D5A70033106B = {
+			isa = PBXGroup;
+			children = (
+				CCF4A57D15E7D5A70033106B /* AudioTitles-IPhone */,
+				CCF4A59E15E7D5A70033106B /* AudioTitles-IPhoneTests */,
+				CCF4A57615E7D5A70033106B /* Frameworks */,
+				CCF4A57415E7D5A70033106B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF4A57415E7D5A70033106B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A57315E7D5A70033106B /* AudioTitles-IPhone.app */,
+				CCF4A59715E7D5A70033106B /* AudioTitles-IPhoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF4A57615E7D5A70033106B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A57715E7D5A70033106B /* UIKit.framework */,
+				CCF4A57915E7D5A70033106B /* Foundation.framework */,
+				CCF4A57B15E7D5A70033106B /* CoreGraphics.framework */,
+				CCF4A59815E7D5A70033106B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF4A57D15E7D5A70033106B /* AudioTitles-IPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A58615E7D5A70033106B /* AppDelegate.h */,
+				CCF4A58715E7D5A70033106B /* AppDelegate.m */,
+				CCF4A58915E7D5A70033106B /* MainStoryboard_iPhone.storyboard */,
+				CCF4A58C15E7D5A70033106B /* MainStoryboard_iPad.storyboard */,
+				CCF4A58F15E7D5A70033106B /* ViewController.h */,
+				CCF4A59015E7D5A70033106B /* ViewController.m */,
+				CCF4A57E15E7D5A70033106B /* Supporting Files */,
+			);
+			path = "AudioTitles-IPhone";
+			sourceTree = "<group>";
+		};
+		CCF4A57E15E7D5A70033106B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A57F15E7D5A70033106B /* AudioTitles-IPhone-Info.plist */,
+				CCF4A58015E7D5A70033106B /* InfoPlist.strings */,
+				CCF4A58315E7D5A70033106B /* main.m */,
+				CCF4A58515E7D5A70033106B /* AudioTitles-IPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF4A59E15E7D5A70033106B /* AudioTitles-IPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A5A415E7D5A70033106B /* AudioTitles_IPhoneTests.h */,
+				CCF4A5A515E7D5A70033106B /* AudioTitles_IPhoneTests.m */,
+				CCF4A59F15E7D5A70033106B /* Supporting Files */,
+			);
+			path = "AudioTitles-IPhoneTests";
+			sourceTree = "<group>";
+		};
+		CCF4A59F15E7D5A70033106B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A5A015E7D5A70033106B /* AudioTitles-IPhoneTests-Info.plist */,
+				CCF4A5A115E7D5A70033106B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF4A57215E7D5A70033106B /* AudioTitles-IPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF4A5A915E7D5A70033106B /* Build configuration list for PBXNativeTarget "AudioTitles-IPhone" */;
+			buildPhases = (
+				CCF4A56F15E7D5A70033106B /* Sources */,
+				CCF4A57015E7D5A70033106B /* Frameworks */,
+				CCF4A57115E7D5A70033106B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioTitles-IPhone";
+			productName = "AudioTitles-IPhone";
+			productReference = CCF4A57315E7D5A70033106B /* AudioTitles-IPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF4A59615E7D5A70033106B /* AudioTitles-IPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF4A5AC15E7D5A70033106B /* Build configuration list for PBXNativeTarget "AudioTitles-IPhoneTests" */;
+			buildPhases = (
+				CCF4A59215E7D5A70033106B /* Sources */,
+				CCF4A59315E7D5A70033106B /* Frameworks */,
+				CCF4A59415E7D5A70033106B /* Resources */,
+				CCF4A59515E7D5A70033106B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF4A59D15E7D5A70033106B /* PBXTargetDependency */,
+			);
+			name = "AudioTitles-IPhoneTests";
+			productName = "AudioTitles-IPhoneTests";
+			productReference = CCF4A59715E7D5A70033106B /* AudioTitles-IPhoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF4A56A15E7D5A70033106B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CCF4A56D15E7D5A70033106B /* Build configuration list for PBXProject "AudioTitles-IPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCF4A56815E7D5A70033106B;
+			productRefGroup = CCF4A57415E7D5A70033106B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF4A57215E7D5A70033106B /* AudioTitles-IPhone */,
+				CCF4A59615E7D5A70033106B /* AudioTitles-IPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF4A57115E7D5A70033106B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A58215E7D5A70033106B /* InfoPlist.strings in Resources */,
+				CCF4A58B15E7D5A70033106B /* MainStoryboard_iPhone.storyboard in Resources */,
+				CCF4A58E15E7D5A70033106B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4A59415E7D5A70033106B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A5A315E7D5A70033106B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCF4A59515E7D5A70033106B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF4A56F15E7D5A70033106B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A58415E7D5A70033106B /* main.m in Sources */,
+				CCF4A58815E7D5A70033106B /* AppDelegate.m in Sources */,
+				CCF4A59115E7D5A70033106B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4A59215E7D5A70033106B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4A5A615E7D5A70033106B /* AudioTitles_IPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF4A59D15E7D5A70033106B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF4A57215E7D5A70033106B /* AudioTitles-IPhone */;
+			targetProxy = CCF4A59C15E7D5A70033106B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF4A58015E7D5A70033106B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4A58115E7D5A70033106B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCF4A58915E7D5A70033106B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4A58A15E7D5A70033106B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF4A58C15E7D5A70033106B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4A58D15E7D5A70033106B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF4A5A115E7D5A70033106B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4A5A215E7D5A70033106B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF4A5A715E7D5A70033106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF4A5A815E7D5A70033106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF4A5AA15E7D5A70033106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioTitles-IPhone/AudioTitles-IPhone-Prefix.pch";
+				INFOPLIST_FILE = "AudioTitles-IPhone/AudioTitles-IPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCF4A5AB15E7D5A70033106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioTitles-IPhone/AudioTitles-IPhone-Prefix.pch";
+				INFOPLIST_FILE = "AudioTitles-IPhone/AudioTitles-IPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCF4A5AD15E7D5A70033106B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioTitles-IPhone.app/AudioTitles-IPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioTitles-IPhone/AudioTitles-IPhone-Prefix.pch";
+				INFOPLIST_FILE = "AudioTitles-IPhoneTests/AudioTitles-IPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CCF4A5AE15E7D5A70033106B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioTitles-IPhone.app/AudioTitles-IPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioTitles-IPhone/AudioTitles-IPhone-Prefix.pch";
+				INFOPLIST_FILE = "AudioTitles-IPhoneTests/AudioTitles-IPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF4A56D15E7D5A70033106B /* Build configuration list for PBXProject "AudioTitles-IPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF4A5A715E7D5A70033106B /* Debug */,
+				CCF4A5A815E7D5A70033106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF4A5A915E7D5A70033106B /* Build configuration list for PBXNativeTarget "AudioTitles-IPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF4A5AA15E7D5A70033106B /* Debug */,
+				CCF4A5AB15E7D5A70033106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF4A5AC15E7D5A70033106B /* Build configuration list for PBXNativeTarget "AudioTitles-IPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF4A5AD15E7D5A70033106B /* Debug */,
+				CCF4A5AE15E7D5A70033106B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF4A56A15E7D5A70033106B /* Project object */;
+}
